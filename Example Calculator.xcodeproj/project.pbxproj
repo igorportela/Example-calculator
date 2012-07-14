@@ -15,6 +15,7 @@
 		E23D9C6415A8846000BF9546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23D9C6315A8846000BF9546 /* AppDelegate.m */; };
 		E23D9C6715A8846000BF9546 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23D9C6515A8846000BF9546 /* MainStoryboard.storyboard */; };
 		E23D9C6A15A8846000BF9546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23D9C6915A8846000BF9546 /* ViewController.m */; };
+		E2849B9B15B1D5AC00A3659B /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E2849B9A15B1D5AC00A3659B /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		E23D9C5315A8846000BF9546 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E23D9C5515A8846000BF9546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E23D9C5715A8846000BF9546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E23D9C5B15A8846000BF9546 /* Example Calculator-Info.plist */ = {isa = PBXFileReference; path = "Example Calculator-Info.plist"; sourceTree = "<group>"; };
+		E23D9C5B15A8846000BF9546 /* Example Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example Calculator-Info.plist"; sourceTree = "<group>"; };
 		E23D9C5D15A8846000BF9546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E23D9C5F15A8846000BF9546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E23D9C6115A8846000BF9546 /* Example Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Example Calculator-Prefix.pch"; sourceTree = "<group>"; };
-		E23D9C6215A8846000BF9546 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E23D9C6115A8846000BF9546 /* Example Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		E23D9C6215A8846000BF9546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E23D9C6315A8846000BF9546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E23D9C6615A8846000BF9546 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E23D9C6815A8846000BF9546 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E23D9C6815A8846000BF9546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E23D9C6915A8846000BF9546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2849B9915B1D5AC00A3659B /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		E2849B9A15B1D5AC00A3659B /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				E23D9C6515A8846000BF9546 /* MainStoryboard.storyboard */,
 				E23D9C6815A8846000BF9546 /* ViewController.h */,
 				E23D9C6915A8846000BF9546 /* ViewController.m */,
+				E2849B9915B1D5AC00A3659B /* CalculatorBrain.h */,
+				E2849B9A15B1D5AC00A3659B /* CalculatorBrain.m */,
 				E23D9C5A15A8846000BF9546 /* Supporting Files */,
 			);
 			path = "Example Calculator";
@@ -164,6 +169,7 @@
 				E23D9C6015A8846000BF9546 /* main.m in Sources */,
 				E23D9C6415A8846000BF9546 /* AppDelegate.m in Sources */,
 				E23D9C6A15A8846000BF9546 /* ViewController.m in Sources */,
+				E2849B9B15B1D5AC00A3659B /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				E23D9C6F15A8846000BF9546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
